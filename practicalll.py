@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
+#Actualizacion
+
 dato = pd.read_csv("avocado.csv");
 aguacate = pd.Series(dato['AveragePrice'])
  
